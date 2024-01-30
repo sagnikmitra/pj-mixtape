@@ -4,7 +4,7 @@ let songs = [
     artist: "Asha Bhosle & Mohammed Rafi",
     img: "1",
     audio: "abhi-na",
-    background: "bg-night",
+    background: "101",
     textColor: "#fffede", // Add text color for song 1
   },
   {
@@ -12,7 +12,7 @@ let songs = [
     artist: "Arijit Singh",
     img: "2",
     audio: "ae-khuda",
-    background: "bg-train",
+    background: "102",
     textColor: "#ffffff", // Add text color for song 1
   },
   {
@@ -20,7 +20,7 @@ let songs = [
     artist: "Shaan",
     img: "3",
     audio: "baithe-baithe",
-    background: "1332803",
+    background: "103",
     textColor: "#fffede", // Add text color for song 1
   },
   {
@@ -28,7 +28,7 @@ let songs = [
     artist: "Surojit Chatterjee",
     img: "4",
     audio: "bhromor",
-    background: "1333744",
+    background: "104",
     textColor: "#ffffff", // Add text color for song 1
   },
   {
@@ -36,7 +36,7 @@ let songs = [
     artist: "Asha Bhosle",
     img: "5",
     audio: "jabo-ki-jabo-na",
-    background: "1332709",
+    background: "105",
     textColor: "#fffede", // Add text color for song 1
   },
   {
@@ -44,7 +44,7 @@ let songs = [
     artist: "Lata Mangeshkar",
     img: "6",
     audio: "lag-ja-gale",
-    background: "1332402",
+    background: "106",
     textColor: "#ffffff", // Add text color for song 1
   },
   {
@@ -52,7 +52,7 @@ let songs = [
     artist: "Rahat Fateh Ali Khan",
     img: "7",
     audio: "ore-piya",
-    background: "1341507",
+    background: "107",
     textColor: "#fffede", // Add text color for song 1
   },
   {
@@ -60,7 +60,7 @@ let songs = [
     artist: "Ed Sheeran",
     img: "8",
     audio: "perfect",
-    background: "979162",
+    background: "108",
     textColor: "#ffffff", // Add text color for song 1
   },
   {
@@ -68,7 +68,7 @@ let songs = [
     artist: "Charlie Puth, Wiz Khalifa",
     img: "9",
     audio: "see-you-again",
-    background: "1345016",
+    background: "109",
     textColor: "#ffffff", // Add text color for song 1
   },
   {
@@ -76,7 +76,7 @@ let songs = [
     artist: "Arijit Singh",
     img: "10",
     audio: "sun-le-zara",
-    background: "599701",
+    background: "110",
     textColor: "#fffede", // Add text color for song 1
   },
   {
@@ -84,7 +84,7 @@ let songs = [
     artist: "Nachiketa",
     img: "11",
     audio: "tumi-asbe-bolei",
-    background: "123456",
+    background: "111",
     textColor: "#ffffff", // Add text color for song 1
   },
 ];

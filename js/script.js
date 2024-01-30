@@ -25,12 +25,12 @@ window.addEventListener("load", () => {
 function loadData(indexValue) {
   musicName.innerHTML = songs[indexValue - 1].name;
   musicArtist.innerHTML = songs[indexValue - 1].artist;
-  Playimage.src = "images/" + songs[indexValue - 1].img + "-min.jpg";
+  Playimage.src = "images/" + songs[indexValue - 1].img + ".jpg";
   Audio.src = "music/" + songs[indexValue - 1].audio + ".mp3";
   // BackgroundImage.src = "images/" + songs[indexValue - 1].background + ".jpg";
 
   const backgroundUrl =
-    "url('./images/" + songs[indexValue - 1].background + "-min.jpg')";
+    "url('./images/" + songs[indexValue - 1].background + ".jpg')";
   body.style.backgroundImage = backgroundUrl;
 
   // Dynamically change text color
