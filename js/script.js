@@ -29,7 +29,9 @@ function loadData(indexValue) {
 
   // Dynamically change background
   const backgroundUrl = songs[indexValue - 1].background;
-  body.style.backgroundImage = backgroundUrl;
+  body.style.backgroundImage = backgroundUrl.includes("url(")
+    ? backgroundUrl
+    : `url(${backgroundUrl})`;
 
   // Dynamically change text color
   const textColor = songs[indexValue - 1].textColor;

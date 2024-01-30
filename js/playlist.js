@@ -4,7 +4,7 @@ let songs = [
     artist: "Asha Bhosle & Mohammed Rafi",
     img: "1",
     audio: "abhi-na",
-    background: "url('../images/bg-night.png')",
+    background: "url('../images/123456.jpg')",
     textColor: "#fffede", // Add text color for song 1
   },
   {
