@@ -10,7 +10,8 @@ const content = document.querySelector(".content"),
   progressBar = content.querySelector(".progress-bar"),
   progressDetails = content.querySelector(".progress-details"),
   repeatBtn = content.querySelector("#repeat"),
-  Shuffle = content.querySelector("#shuffle");
+  Shuffle = content.querySelector("#shuffle"),
+  BackgroundImage = content.querySelector(".background-image");
 
 // Add the following line at the beginning of your script.js file
 const body = document.body;
@@ -26,12 +27,11 @@ function loadData(indexValue) {
   musicArtist.innerHTML = songs[indexValue - 1].artist;
   Playimage.src = "images/" + songs[indexValue - 1].img + ".jpg";
   Audio.src = "music/" + songs[indexValue - 1].audio + ".mp3";
+  // BackgroundImage.src = "images/" + songs[indexValue - 1].background + ".jpg";
 
-  // Dynamically change background
-  const backgroundUrl = songs[indexValue - 1].background;
-  body.style.backgroundImage = backgroundUrl.includes("url(")
-    ? backgroundUrl
-    : `url(${backgroundUrl})`;
+  const backgroundUrl =
+    "url('./images/" + songs[indexValue - 1].background + ".jpg')";
+  body.style.backgroundImage = backgroundUrl;
 
   // Dynamically change text color
   const textColor = songs[indexValue - 1].textColor;
